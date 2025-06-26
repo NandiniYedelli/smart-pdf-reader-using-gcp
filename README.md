@@ -61,6 +61,7 @@ smart-pdf-reader/
         gcloud pubsub subscriptions create pdf-topic-sub --topic=pdf-topic
 
 🔹 3. Deploy Cloud Function
+
         cd main_function
         gcloud functions deploy pdf-to-text-function \
             --entry-point pdf_to_text \
